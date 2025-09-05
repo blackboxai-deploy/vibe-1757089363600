@@ -33,10 +33,10 @@ yarn-error.log*
 *.tsbuildinfo
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
 
 # OS
 Thumbs.db
+config.bat

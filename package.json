@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "A beautiful memory card matching game built with Next.js and TypeScript",
   "private": true,
-  "keywords": ["memory-game", "card-matching", "react", "nextjs", "typescript", "game"],
+  "keywords": [
+    "memory-game",
+    "card-matching",
+    "react",
+    "nextjs",
+    "typescript",
+    "game"
+  ],
   "author": "Memory Game Studio",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "export": "next build && next export",
     "type-check": "tsc --noEmit"
